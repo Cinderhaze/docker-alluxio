@@ -7,7 +7,7 @@
 #  https://github.com/int32bit/docker-alluxio
 #
 
-FROM java:openjdk-8-jdk-alpine
+FROM openjdk:8-jdk-alpine
 MAINTAINER int32bit krystism@gmail.com
 ENV ALLUXIO_VERSION 1.3.0
 
